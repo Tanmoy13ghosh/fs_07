@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 40px;
+    width: 250px;
+    border: 2px solid #7dffcb;
+    font-size: 24px;
+    outline-color: #7dffcb;
+    padding-left: 20px;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
